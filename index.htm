@@ -1859,19 +1859,19 @@ Uncomment this CSS to use it in the project. Leave this message for future hand-
             </p>
             <p
               data-animation="random"
-              data-text="...PRAISON LABS"
+              data-text="...PRAISON"
               data-delay="1"
               data-speed="5"
             >
-              ...PRAISON LABS
+              ...PRAISON
             </p>
             <p
               data-animation="random"
-              data-text="/////...2045"
+              data-text="LABS"
               data-delay="1"
               data-speed="5"
             >
-              /////...2045
+              LABS
             </p>
             <p
               data-animation="random"
@@ -6740,7 +6740,7 @@ Uncomment this CSS to use it in the project. Leave this message for future hand-
                     typeCanvas.width = typeCanvasWidth;
                     typeCanvas.height = typeCanvasHeight;
 
-                    const fontSize = typeCanvasWidth * 0.22;
+                    const fontSize = typeCanvasWidth * 0.13;
                     typeContext.fillStyle = "black";
                     typeContext.fillRect(
                       0,
@@ -6752,10 +6752,17 @@ Uncomment this CSS to use it in the project. Leave this message for future hand-
                     typeContext.font = `${fontSize}px Drukwide`;
                     typeContext.textBaseline = "middle";
                     typeContext.textAlign = "center";
+                    // Draw PRAISON
                     typeContext.fillText(
                       "PRAISON",
                       typeCanvasWidth / 2,
-                      typeCanvasHeight / 2
+                      typeCanvasHeight / 2 - fontSize/2
+                    );
+                    // Draw LABS
+                    typeContext.fillText(
+                      "LABS",
+                      typeCanvasWidth / 2,
+                      typeCanvasHeight / 2 + fontSize/2
                     );
 
                     const typeData = typeContext.getImageData(
@@ -6977,19 +6984,19 @@ Uncomment this CSS to use it in the project. Leave this message for future hand-
               </p>
               <p
                 data-animation="random"
-                data-text="...PRAISON LABS"
+                data-text="...PRAISON"
                 data-delay="1"
                 data-speed="5"
               >
-                ...PRAISON LABS
+                ...PRAISON
               </p>
               <p
                 data-animation="random"
-                data-text="/////...2045"
+                data-text="LABS"
                 data-delay="1"
                 data-speed="5"
               >
-                /////...2045
+                LABS
               </p>
               <p
                 data-animation="random"
@@ -7101,7 +7108,7 @@ Uncomment this CSS to use it in the project. Leave this message for future hand-
                     data-speed="5"
                     data-animation="random"
                   >
-                    SITE BY:
+                    
                   </p>
                   <a
                     data-sound-click=""
@@ -7121,7 +7128,7 @@ Uncomment this CSS to use it in the project. Leave this message for future hand-
                         data-start-100=""
                         class="text-color-pastel-pink-main"
                       >
-                        Serhii polyvanyi
+                        
                       </p>
                     </div> </a
                   ><a
@@ -7142,7 +7149,7 @@ Uncomment this CSS to use it in the project. Leave this message for future hand-
                         data-start-100=""
                         class="text-color-pastel-pink-main"
                       >
-                        BL/S®
+                        
                       </p>
                     </div>
                   </a>
@@ -7198,7 +7205,6 @@ Uncomment this CSS to use it in the project. Leave this message for future hand-
                       data-sound-click=""
                       role="button"
                       line-mask-link=""
-                      href="https://github.com/Praison-Labs"
                       class="cta-primary w-inline-block"
                     >
                       <div class="cta_box-bg">
@@ -7222,7 +7228,7 @@ Uncomment this CSS to use it in the project. Leave this message for future hand-
                       <div class="cta_box-content">
                         <div class="cta_text_wrap">
                           <div class="overflow-hidden linehight-1">
-                            <div line-mask-text="peach">submit_idea</div>
+                            <div line-mask-text="peach">Contribute</div>
                           </div>
                         </div>
                         <div class="cta_block_wrap">
@@ -7305,7 +7311,7 @@ Uncomment this CSS to use it in the project. Leave this message for future hand-
                     data-speed="5"
                     data-animation="random"
                   >
-                    AWWWARDS
+                    
                   </p>
                   <p
                     data-start-100=""
@@ -7314,7 +7320,7 @@ Uncomment this CSS to use it in the project. Leave this message for future hand-
                     data-speed="5"
                     data-animation="random"
                   >
-                    MASTERCLASS BY:
+
                   </p>
                   <a
                     data-sound-click=""
@@ -7334,7 +7340,7 @@ Uncomment this CSS to use it in the project. Leave this message for future hand-
                         data-start-100=""
                         class="text-color-pastel-pink-main"
                       >
-                        NICCOLO MIRANDA
+                        
                       </p>
                     </div>
                   </a>
